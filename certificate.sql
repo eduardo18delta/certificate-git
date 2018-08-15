@@ -32,7 +32,7 @@ CREATE TABLE `certificate` (
   `id_pessoa` int(11) NOT NULL,
   `nome_pessoa` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
   `cpf_pessoa` varchar(14) COLLATE utf8_unicode_ci NOT NULL,
-  `carga_horaria` int(11) DEFAULT NULL,
+  `carga_horaria` VARCHAR(11) NOT NULL,
   `data_criacao` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
@@ -41,7 +41,7 @@ CREATE TABLE `certificate` (
 --
 
 INSERT INTO `certificate` (`id_pessoa`, `nome_pessoa`, `cpf_pessoa`, `carga_horaria`, `data_criacao`) VALUES
-(1, 'Eduardo Henrique Souza Moraes', '89373354094', 5, '2018-07-05 12:09:53');
+(1, 'Eduardo Henrique Souza Moraes', '89373354094', "5 Horas", '2018-07-05 12:09:53');
 
 --
 -- Indexes for dumped tables
