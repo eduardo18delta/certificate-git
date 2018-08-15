@@ -1,6 +1,6 @@
 ## GERADOR DE CERTIFICADO ONLINE COM BANCO DE DADOS
 
-Sistema criado com o objetivo de ajudar desenvolvedores iniciantes a gerar certificados em PDF usando PHP com Bando de Dados incluso.
+Sistema criado com o objetivo de ajudar desenvolvedores iniciantes a gerar certificados em PDF usando PHP com Banco de Dados incluso.
 
 ## INSTALAÇÃO
 
