@@ -1,0 +1,92 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: 
+    border-box;
+}
+
+body, html{
+    width: 100%; 
+    min-height: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+body{
+    background: url('../img/fundo.jpg') no-repeat center center; 
+    background-size: cover;
+}
+
+.thumb{
+    width: 100%;
+    text-align: center;
+}
+
+.box-info{
+    display: block; 
+    padding: 20px; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300; 
+    font-size: 18px; 
+    text-transform: uppercase; 
+    color: #fff; 
+    background-color: #000;
+    text-shadow: 1px 1px #222;}
+
+.trigger-infor{
+    background-color: rgba(14,130,186, .8);}
+
+.btn{
+    text-align: center;
+    padding: 22px 40px;
+    background-color: rgb(18, 161, 78);
+    border: 0;
+    border-bottom: 3px solid rgb(14, 117, 57);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-shadow: 1px 1px #222;
+    cursor: pointer;
+    text-transform: uppercase;
+    max-width: 50%;
+    display: inline-block;
+}
+
+.box-login{
+    width: 100%; 
+    max-width: 600px;}
+
+.form-box{
+    background-color: #fff;
+    padding: 10px;
+}
+
+.form{
+    width: 90%;
+    margin: 0 5%;
+}
+
+.input{
+    width: 100%;
+    padding: 15px 5px;
+    border: 3px solid #ccc;
+    font-size: 1.2em;
+    outline: 0;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.text-input{
+    margin-bottom: 5px;
+    display: block;
+    color: #444;
+    text-transform: uppercase;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: .875em;
+}
+
+a:link{ 
+text-decoration:none; 
+color: white;
+} 
