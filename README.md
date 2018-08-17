@@ -21,4 +21,6 @@ Sistema criado com o objetivo de ajudar desenvolvedores iniciantes a gerar certi
 ## POSSIVEIS MELHORIAS
 
 1. - Adicionar função para validação do CPF.
-2. - Desenvolver uma Dashboard para verificação do sistema.
+2. - Desenvolver uma Dashboard para geração de estatísticas.
+3. - Criar um autenticador para o certificado, com criptografia em Md5.
+4. - Criar um gerador automatico para criar certificados online sem precisar modificar código algum, somente adicionar a imagem base, usando o conceito do WordPress.
