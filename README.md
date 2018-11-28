@@ -24,3 +24,10 @@ Sistema criado com o objetivo de ajudar desenvolvedores iniciantes a gerar certi
 2. - Desenvolver uma Dashboard para geração de estatísticas.
 3. - Criar um autenticador para o certificado, com criptografia em Md5.
 4. - Criar um gerador automatico para criar certificados online sem precisar modificar código algum, somente adicionar a imagem base, usando o conceito do WordPress.
+
+## PERMISSÃO NA PASTA
+
+1. - Em alguns computadores com linux é preciso dar a permissao de leitura e escrita na
+pasta /arquivos 
+2. - Comando: sudo chmod -R 777 /var/www/html/certificate-git/certificate/arquivos/
+
