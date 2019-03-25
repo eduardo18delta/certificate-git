@@ -18,7 +18,7 @@
 <div class="thumb">
 <div class="trigger-box">
 <span class="box-info trigger-infor">
-Gerador de Certificado
+SEJA PROTAGONISTA DE SUA HISTÓRIA
 </span>
 </div>
 </div>
@@ -27,7 +27,9 @@ Gerador de Certificado
 <form action="certificate/certificate.php" class="form" method="post">
     <span class="text-input">Informe seu CPF: (sem pontos e sem traço)</span>
     <input type="text" name="cpf" class="input" maxlength="11">
-    <button type="submit" class="btn">Gerar Certificado</button>
+    <center>
+    <button type="submit" class="btn">Enviar</button>
+    </center>
 </form>
 
 </div>                  

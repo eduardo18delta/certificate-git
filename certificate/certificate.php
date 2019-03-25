@@ -14,7 +14,7 @@ require('init.php');
 $cpf = $_POST['cpf'];
 
 //SELECT na Base de Dados na tabela certificate
-$consulta = $pdo->prepare("select * from certificate where cpf_pessoa = :cpf");
+$consulta = $pdo->prepare("select * from sejaprotagonistadesuahistoria where cpf_pessoa = :cpf");
 $consulta->bindParam(':cpf', $cpf, PDO::PARAM_INT);
 $consulta->execute();
 $total_registro = $consulta->rowCount();
@@ -46,14 +46,8 @@ $pdf->SetAlpha(1);
 
 // Mostrar o nome
 $pdf->SetFont('Arial', '', 25); // Tipo de fonte e tamanho
-$pdf->SetXY(19,87); //Parte chata onde tem que ficar ajustando a posição X e Y
+$pdf->SetXY(19,110); //Parte chata onde tem que ficar ajustando a posição X e Y
 $pdf->MultiCell(265, 10,$nome_pessoa, '', 'C', 0); // Tamanho width e height e posição
-
-
-// Mostrar a carga horaria
-$pdf->SetFont('Arial', '', 25); // Tipo de fonte e tamanho
-$pdf->SetXY(15,129); //Parte chata onde tem que ficar ajustando a posição X e Y
-$pdf->MultiCell(265, 10, $carga_horaria, '', 'C', 0); // Tamanho width e height e posição
 
 $pdfdoc = $pdf->Output('', 'S');
 
